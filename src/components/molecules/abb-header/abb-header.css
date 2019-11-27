@@ -1,0 +1,11 @@
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 48px 0 16px;
+}
+
+img {
+  width: 500px;
+  max-width: 80vw;
+}

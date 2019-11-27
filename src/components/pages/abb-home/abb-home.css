@@ -1,0 +1,36 @@
+.container {
+  margin: 32px 0;
+}
+
+.cards {
+  margin: 16px 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.card {
+  min-width: 200px;
+  max-width: 400px;
+  background-color: var(--paper);
+  margin: 8px 0;
+  padding: 8px;
+  border-radius: 3px;
+}
+
+img {
+  width: 100%;
+  border-radius: 3px;
+}
+
+.person-information {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  grid-auto-flow: column;
+  grid-gap: var(--spacing-0-5);
+  align-items: center;
+}
+
+a {
+  text-decoration: none;
+}
